@@ -1,0 +1,169 @@
+@import "./global.css";
+
+header {
+  width: 100%;
+  height: 30%;
+  background: url("../images/main-header.png");
+  background-size: cover;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.search-form {
+  position: relative;
+  top: 6vh;
+  margin: 0 auto;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+.search-input {
+  position: absolute;
+  top: 16px;
+  left: 60px;
+  font-size: 14px;
+  background: none;
+  color: #5a6674;
+  border: none;
+  appearance: none;
+  outline: none;
+}
+
+.search-button {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: none !important;
+  cursor: pointer;
+
+  & svg {
+    width: 30px;
+    height: 30px;
+    fill: #5a6674;
+  }
+}
+
+.popular-book {
+  position: relative;
+}
+
+.popular-book-container {
+  position: relative;
+  width: 90%;
+  height: 32vh;
+  margin: 0 auto;
+  top: -12vh;
+  padding: 2vh 5vw;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.new-book {
+  position: relative;
+  margin-top: 30px;
+}
+
+.new-book-title-container {
+  position: relative;
+  top: -10vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.new-book-container {
+  position: relative;
+  width: 90%;
+  height: 28vh;
+  margin: 0 auto;
+  top: -10vh;
+  padding: 0.2vh 5vw;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.book-list-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vh;
+  font-family: "Nanum Myeongjo";
+}
+
+.book-item-list {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.book-thumbnail {
+  max-width: auto;
+  height: 14vh;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.see-all {
+  color: #5a6674;
+  font-family: "Roboto";
+}
+
+.book-meta {
+  margin-top: 1vh;
+  padding-left: 1vw;
+  font-size: 1vh;
+}
+
+.book-title {
+  font-size: 1.8vh;
+}
+
+.book-author {
+  display: block;
+  color: #5a6674;
+  margin-bottom: 2px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8vh;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  height: 100%;
+}
+
+.navigation-item {
+  text-align: center;
+  width: 40px;
+  height: 50%;
+}
+
+.navigation-item-page {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
