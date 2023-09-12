@@ -83,11 +83,10 @@ main {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .book-item {
-  width: 12vh;
+  width: 30%;
   height: 20vh;
   text-align: center;
   margin-bottom: 2vh;
@@ -123,42 +122,4 @@ main {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 8vh;
-}
-
-.navigation-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background: #ffffff;
-  height: 100%;
-}
-
-.navigation-item {
-  position: relative;
-  text-align: center;
-  margin: 0 auto;
-  width: 40px;
-  height: 50%;
-}
-
-.navigation-item a {
-  position: absolute;
-  display: inline-block;
-  top: 20%;
-  left: 20%;
-}
-
-.navigation-item-page {
-  color: black;
-  font-size: 1.5vh;
-  font-weight: 500;
 }

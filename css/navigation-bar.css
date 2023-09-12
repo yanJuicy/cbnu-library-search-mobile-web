@@ -1,0 +1,68 @@
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8vh;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  height: 100%;
+}
+
+.navigation-item {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.navigation-item a {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation-item-page {
+  color: black;
+  font-size: 1.5vh;
+  font-weight: 500;
+}
+
+.icon-home {
+  display: inline-block;
+  background: url("../images/icon-home.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-search {
+  display: inline-block;
+  background: url("../images/icon-search.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-bookmark {
+  display: inline-block;
+  background: url("../images/icon-bookmark.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-user {
+  display: inline-block;
+  background: url("../images/icon-user.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}

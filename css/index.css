@@ -7,11 +7,6 @@ header {
   background-size: cover;
 }
 
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
 .search-form {
   position: relative;
   top: 6vh;
@@ -27,6 +22,7 @@ a {
   position: absolute;
   top: 16px;
   left: 60px;
+  right: 20px;
   font-size: 14px;
   background: none;
   color: #5a6674;
@@ -53,44 +49,17 @@ a {
   }
 }
 
-.popular-book {
-  position: relative;
-}
-
-.popular-book-container {
+.book-container {
   position: relative;
   width: 90%;
   height: 32vh;
+  text-align: center;
   margin: 0 auto;
   top: -12vh;
-  padding: 2vh 5vw;
+  padding: 2vh 4vw;
   background: #ffffff;
   border-radius: 15px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-.new-book {
-  position: relative;
-  margin-top: 30px;
-}
-
-.new-book-title-container {
-  position: relative;
-  top: -10vh;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
-
-.new-book-container {
-  position: relative;
-  width: 90%;
-  height: 28vh;
-  margin: 0 auto;
-  top: -10vh;
-  padding: 0.2vh 5vw;
-  background: #ffffff;
-  border-radius: 15px;
 }
 
 .book-list-title {
@@ -98,8 +67,14 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5vh;
+  font-size: 2.4vh;
   font-family: "Nanum Myeongjo";
+}
+
+.see-all {
+  color: #5a6674;
+  font-family: "Roboto";
+  font-size: 1px;
 }
 
 .book-item-list {
@@ -107,7 +82,14 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: hidden;
+  width: 100%;
+}
+
+.book-item {
+  width: 30%;
+  height: 20vh;
+  text-align: center;
+  margin-bottom: 2vh;
 }
 
 .book-thumbnail {
@@ -118,52 +100,33 @@ a {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
-.see-all {
-  color: #5a6674;
-  font-family: "Roboto";
-}
-
 .book-meta {
+  width: 12vh;
+  margin: 0 auto;
   margin-top: 1vh;
   padding-left: 1vw;
+  padding-right: 1vw;
   font-size: 1vh;
+  text-align: left;
 }
 
 .book-title {
-  font-size: 1.8vh;
+  font-size: 1.4vh;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .book-author {
   display: block;
   color: #5a6674;
   margin-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 8vh;
-}
-
-.navigation-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background: #ffffff;
-  height: 100%;
-}
-
-.navigation-item {
-  text-align: center;
-  width: 40px;
-  height: 50%;
-}
-
-.navigation-item-page {
-  color: black;
-  font-size: 14px;
-  font-weight: 500;
+.new-book {
+  position: relative;
+  margin-top: 30px;
 }
