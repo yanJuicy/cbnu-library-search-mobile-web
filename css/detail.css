@@ -8,11 +8,6 @@ header {
   height: 6vh;
 }
 
-main {
-  overflow: auto;
-  height: 86vh;
-}
-
 #register-number {
   color: #0086c2;
 }
@@ -27,6 +22,17 @@ main {
   margin: 0 auto;
 }
 
+.detail-container {
+  overflow: auto;
+  height: 86vh;
+
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.detail-container::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
 .book-container {
   margin-top: 10px;
   text-align: center;
@@ -38,6 +44,8 @@ main {
 }
 
 .book-meta {
+  width: 80%;
+  margin: 0 auto;
   padding: 10px;
   font-family: "Noto Sans KR";
   font-size: 1.8vh;

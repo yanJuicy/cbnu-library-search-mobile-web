@@ -1,8 +1,10 @@
 @import "./global.css";
 
-main {
-  border-top: 1px solid lightgray;
+header {
   border-bottom: 1px solid lightgray;
+}
+
+main {
   background: white;
   height: 82vh;
 }
@@ -11,7 +13,6 @@ main {
   position: relative;
   width: 100%;
   height: 10vh;
-  border: 1px solid white;
   background: white;
 }
 
@@ -27,7 +28,8 @@ main {
 }
 
 .search-bar {
-  padding-top: 30px;
+  padding-top: 3vh;
+  height: 10vh;
 }
 
 .search-form {
@@ -73,12 +75,20 @@ main {
 
 .search-result {
   width: 90%;
-  margin-top: 14px;
+  height: 72vh;
+  margin-top: 1vh;
   margin: 0 auto;
+  overflow: auto;
+
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.search-result::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
 
 .book-item-list {
-  margin-top: 3vh;
+  margin-top: 1vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
