@@ -37,3 +37,11 @@
   width: 3vh;
   height: 3vh;
 }
+
+.icon-back {
+  display: inline-block;
+  background: url("../images/icon-back.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}

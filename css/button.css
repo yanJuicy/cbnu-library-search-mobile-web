@@ -1,0 +1,41 @@
+.bookmark-check-button {
+  display: block;
+  background-color: white;
+  background-image: url("../images/icon-bookmark-selected.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 4vh;
+  height: 4vh;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.bookmark-uncheck-button {
+  display: block;
+  background-color: white;
+  background-image: url("../images/icon-bookmark.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 4vh;
+  height: 4vh;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.comment-button {
+  display: block;
+  background-color: white;
+  background-image: url("../images/icon-comment.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 4vh;
+  height: 4vh;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.15);
+}
