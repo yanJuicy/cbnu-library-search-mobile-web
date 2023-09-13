@@ -1,0 +1,39 @@
+.icon-home {
+  display: inline-block;
+  background: url("../images/icon-home.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-search {
+  display: inline-block;
+  background: url("../images/icon-search.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-bookmark {
+  display: inline-block;
+  background: url("../images/icon-bookmark.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-bookmark-selected {
+  display: inline-block;
+  background: url("../images/icon-bookmark-selected.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}
+
+.icon-user {
+  display: inline-block;
+  background: url("../images/icon-user.png");
+  background-size: cover;
+  width: 3vh;
+  height: 3vh;
+}

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 @import "./navigation-bar.css";
 @import "./reset.css";
+@import "./icon.css";
 
 * {
   box-sizing: border-box;
@@ -28,6 +29,15 @@ a {
   border-radius: 50%;
   background-color: black;
 }
+
+.ellipse {
+  margin: 0 auto;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
 .wrapper {
   margin: 0 auto;
   padding: 2px;
@@ -37,4 +47,3 @@ a {
 .disabled {
   display: none !important;
 }
-
