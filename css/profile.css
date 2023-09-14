@@ -1,0 +1,80 @@
+@import "./global.css";
+
+body {
+  background-color: white;
+}
+
+.user-info {
+  position: relative;
+  width: 70%;
+  height: 10vh;
+  margin: 0 auto;
+  line-height: 10vh;
+  font-size: 2.4vh;
+}
+
+.recent-book {
+  position: relative;
+  height: 24vh;
+  background: rgb(245, 245, 245);
+}
+
+.recent-book-title {
+  text-align: center;
+  font-size: 2vh;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.recent-book-list {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.recent-book-list::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.recent-book-item {
+  flex: 0 0 auto;
+  /* width: 12vh; */
+  height: 16vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.recent-book-thumbnail {
+  height: 100%;
+}
+
+.menu-list .menu-item:first-child {
+  border-top: 1px solid lightgray;
+}
+
+.menu-item {
+  position: relative;
+  padding: 2vh;
+  border-bottom: 1px solid lightgray;
+  font-size: 1.4vh;
+}
+
+.menu-click-button {
+  position: absolute;
+  display: inline-block;
+  width: 2.4vh;
+  height: 2.4vh;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 4vw;
+  background: url("../images/icon-next.png");
+  background-size: cover;
+  filter: invert(97%) sepia(5%) saturate(9%) hue-rotate(316deg) brightness(89%)
+    contrast(88%);
+}
