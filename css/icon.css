@@ -45,3 +45,15 @@
   width: 3vh;
   height: 3vh;
 }
+
+.icon-cross {
+  display: inline-block;
+  background: url("../images/icon-cross.png");
+  background-size: contain;
+}
+
+.icon-send {
+  display: inline-block;
+  background: url("../images/icon-send.png");
+  background-size: cover;
+}
